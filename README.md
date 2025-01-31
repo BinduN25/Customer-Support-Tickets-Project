@@ -26,15 +26,6 @@ Key steps:
 2. Training and testing a sentiment classification model.
 3. Outputting the sentiment score for each ticket.
 
-## Some Results (screenshots)
-**This is an image of how the data is spread for different issues using heatmap**
-![image](https://github.com/user-attachments/assets/dc7e5fa5-90c9-4c56-aab0-80318e5bcf5d)
-
-**Test Cases with sentiment prediction and thought**
-<img width="918" alt="image" src="https://github.com/user-attachments/assets/3ee9c095-0fcd-463c-87cb-8140a55f6966" />
-
-**This is a confusion matrix of seeing how the predicted labels (done by gemini is actually matching the true labels or not(100 data points)) and then we add examples in the prompt**
-![image](https://github.com/user-attachments/assets/1a8dee8b-0570-44c6-933b-9869f63906fc)
 
 ---
 
@@ -57,18 +48,6 @@ This module generates automated responses for tickets using two distinct approac
    - Predefined templates generate responses tailored to the classified product category.
 
 
-**Some results (screenshots)**
-
-- This is a cluster visdualisation of products
-   <img width="452" alt="image" src="https://github.com/user-attachments/assets/7dae6bfb-f393-460a-835b-1e35acdb60bc" />
-
-
-- Some top issues on each cluster
-  <img width="422" alt="image" src="https://github.com/user-attachments/assets/39a09618-2ee1-4975-9ead-a4c9a35fd2ed" />
-
-  
-- automated response on a prompt
-  <img width="695" alt="image" src="https://github.com/user-attachments/assets/f66730b6-e1c4-4499-b547-747b44b43398" />
 
 2. **Pipeline Using Gemini and Vector Search**:
    - Embeddings are created using the ticket content.
@@ -82,20 +61,13 @@ The entire system is integrated using FastAPI to expose API endpoints for each m
 - Automate workflows and email responses.
 - Seamlessly handle escalations and response generation.
 
-## Zapier integration screenshot (trigger and action)
-
-- This is zapier interface to set webhook as trigger and send email as action-
-   <img width="323" alt="image" src="https://github.com/user-attachments/assets/477de23a-82fa-43a9-a0c5-2e780bbb9449" />
-
-- Trigger fields for send email (api configured hence options show up)
-  <img width="377" alt="image" src="https://github.com/user-attachments/assets/2ac6650e-a010-466c-8789-f105bc2cd638" />
+## Zapier integration (trigger and action)
 
 This integration ensures:
 - Scalability of the system.
 - A unified platform for executing all functionalities.
 - Sent email response (not formatted properly)
-  ![image](https://github.com/user-attachments/assets/688db775-dec4-40ea-90cc-f944de481ece)
-
+  
 ---
 
 ## Requirements
